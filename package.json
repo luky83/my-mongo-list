@@ -1,0 +1,31 @@
+{
+  "name": "my-mongo-list",
+  "version": "0.0.0",
+  "description": "corso node",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --bail test/"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luky83/my-mongo-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luky83/my-mongo-list/issues"
+  },
+  "homepage": "https://github.com/luky83/my-mongo-list",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.18.2",
+    "pre-commit": "0.0.7",
+    "sinon": "^1.9.1"
+  },
+  "dependencies": {
+    "mongodb": "^1.4.4"
+  }
+}
