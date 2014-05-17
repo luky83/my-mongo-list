@@ -26,6 +26,7 @@
     "sinon": "^1.9.1"
   },
   "dependencies": {
+    "mongo-clean": "0.0.1",
     "mongodb": "^1.4.4"
   }
 }
